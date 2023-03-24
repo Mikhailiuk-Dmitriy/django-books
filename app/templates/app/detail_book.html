@@ -1,0 +1,41 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<hr>
+<a href="{% url 'index' %}"><-Назад</a>
+<div class="card" style=" display: flex; justify-content: center;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      {% if book.image %}
+            <img src="{{ book.image.url }}" class="img-fluid rounded-start"
+                 alt="...">
+            {% else %}
+            <img src="{% static 'app/nofoto.jpg' %}" class="card-img-top" alt="..."
+                 width="200" height="400">
+            {% endif %}
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+          Автор:
+          {% for author in book.author.all %}
+            <li><small class="text-muted">{{ author }}</small></li>
+          {% endfor %}
+        <br>
+        <p class="card-text">{{ book.description }}</p>
+      </div>
+        <div style="display: flex; ">
+        <form action="{% url 'update_book' book.pk %}" style="margin: 4px;">
+            <button class="btn btn-outline-primary" >Редактировать</button>
+        </form>
+        <form action="{% url 'delete_book' book.pk%}" style="margin: 4px;">
+            <button class="btn btn-outline-danger" >Удалить</button>
+        </form>
+        </div>
+       </div>
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,81 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<hr>
+<a href="{% url 'detail_book' book.pk %}"><-Назад</a>
+<div class="card" style=" display: flex; justify-content: center;">
+    <div class="row g-0">
+        <div class="col-md-4" style="margin-right: 30px;">
+            {% if book.image %}
+            <img src="{{ book.image.url }}" class="img-fluid rounded-start"
+                 alt="...">
+            {% else %}
+            <img src="{% static 'app/nofoto.jpg' %}" class="card-img-top"
+                 alt="..."
+                 width="200" height="400">
+            {% endif %}
+        </div>
+        <div class="col-md-6">
+            <div class="card-body">
+                {% if error %}
+                <div class="alert alert-danger" role="alert">
+                    {{ error }}
+                </div>
+                {% endif %}
+                <form method="POST" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="title"><h5>Заголовок</h5></label>
+                        <input type="text" name="title" class="form-control"
+                               id="title"
+                               value="{{ book.title }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="description"><h5>Описание</h5></label>
+                        <textarea name="description" rows="5"
+                                  class="form-control" id="description">{{ book.description }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label><h5>Изображение сейчас:</h5></label>
+                        <label>{{ book.image }} </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="id_image"><h5>Изменить изображение</h5>
+                        </label>
+                        <input type="file" name="image" accept="image/*"
+                               id="id_image">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <h5><label for="id_author" style="margin-right: 10px;">
+                            Автор:</label></h5>
+                        <select name="author" required="" id="id_author"
+                                multiple=""
+                                style="padding-left: 5px; padding-right: 10px; padding-bottom: 5px;">
+                            {% for author in authors %}
+                            {% if author in book.author.all %}
+                            <option value="{{ author.pk }}" selected>{{ author }}
+                            </option>
+                            {% else %}
+                            <option value="{{ author.pk }}">{{ author }}
+                            </option>
+                            {% endif %}
+                            {% endfor %}
+                        </select>
+                        <a style="margin-left:10px;"
+                           href="{% url 'authors'%}">Редактировать</a>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">
+                        Сохранить
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

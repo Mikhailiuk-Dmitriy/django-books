@@ -1,0 +1,44 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<hr>
+<div class="row justify-content-center mt-5" style="position: relative;">
+    <div class="col-md-10" style="display: inline-flex;">
+        <h1> Автор</h1>
+
+        <form action="{% url 'create_author' %}" style="position: absolute; right: 0;">
+        <button type="submit" class="btn btn-info" >Добавить</button>
+        </form>
+    </div>
+</div>
+<hr>
+{% if authors %}
+{% for author in authors %}
+<div class="row justify-content-center mt-4" style="position: relative;">
+             <div class="col-md-9">
+                 <h7>{{ author }}</h7>
+             </div>
+            <div class="col-md-4" style="position: absolute; right: 0;">
+                <form action="{% url 'update_author' author.pk %}"
+                      style="display: inline-block">
+                    <button class="btn btn-link" type="submit">
+                        Изменить
+                    </button>
+                </form>
+                <form action="{% url 'delete_author' author.pk %}"
+                      style="display: inline-block">
+                    <button class="btn btn-link" type="submit">
+                        Удалить
+                    </button>
+                </form>
+            </div>
+        </div>
+<hr>
+{% endfor %}
+{% else %}
+<h3>Пока нет ни одного автора</h3>
+{% endif %}
+
+{% endblock %}

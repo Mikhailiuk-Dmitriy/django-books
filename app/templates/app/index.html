@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<hr>
+
+<div class="row" style="display: flex; justify-content: center;">
+    {% if books %}
+    {% for book in books %}
+    <div class="card" style="width: 16rem; margin: 10px; padding: 4px;">
+        <a href="{% url 'detail_book' book.pk %}">
+        {% if book.image %}
+            <img src="{{ book.image.url }}" class="card-img-top" alt="..."
+                 width="200" height="400">
+            {% else %}
+            <img src="{% static 'app/nofoto.jpg' %}" class="card-img-top" alt="..."
+                 width="200" height="400">
+            {% endif %}
+
+            <div class="card-body">
+                <h5 class="card-title">{{ book.title }}</h5>
+        </a>
+        Автор:
+        {% for author in book.author.all %}
+        <li><small class="text-muted">{{ author }}</small></li>
+        {% endfor %}
+        <br>
+        <p class="card-text">{{ book.description|truncatechars:50 }}</p>
+    </div>
+</div>
+{% endfor %}
+
+</div>
+
+{% else %}
+<h3>Пока нет ни одной книги</h3>
+{% endif %}
+{% endblock %}

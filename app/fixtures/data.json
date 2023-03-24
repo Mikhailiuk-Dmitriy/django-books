@@ -1,0 +1,1330 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-03-21T16:24:33.307Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Майк",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-03-21T16:26:16.103Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Михаил Лабковский",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-03-21T17:15:34.518Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Зоопарк в твоей голове.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-03-21T17:16:17.719Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Гибельное влияние",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-03-21T17:36:15.238Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Гибельное влияние",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-03-21T17:36:27.456Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Зоопарк в твоей голове.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-03-21T17:49:12.874Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "1111",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-03-21T17:49:40.557Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "wwww eeeee",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-03-21T17:49:50.604Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "1111",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-03-21T17:50:00.798Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "wwww eeeee",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-03-21T18:09:37.035Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Гибельное влияние",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-03-21T18:09:47.533Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Зоопарк в твоей голове.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-03-21T18:10:23.105Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "1111",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Author\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-03-21T18:10:50.104Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "1111",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-03-21T18:14:31.539Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "ytrytry",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-03-21T18:30:25.526Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Антонина Крейн",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-03-21T18:31:06.770Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Улыбнись мне, Артур Эдинброг",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-03-21T18:31:14.678Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "1111",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-03-21T18:31:21.556Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "ytrytry",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-03-21T18:32:06.931Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Карен Уайт",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2023-03-21T18:32:39.684Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Чердак на Куин-стрит",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2023-03-21T20:37:56.357Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "7",
+    "object_repr": "Зоопарк в твоей голове.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2023-03-21T20:39:05.685Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "8",
+    "object_repr": "Зоопарк в твоей голове.",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2023-03-22T18:29:28.846Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "9",
+    "object_repr": "1111",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2023-03-22T18:42:57.764Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "13",
+    "object_repr": "тмситсм",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2023-03-22T18:42:57.882Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "12",
+    "object_repr": "рапр",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2023-03-22T18:42:58.007Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "11",
+    "object_repr": "jl;klj;",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2023-03-22T18:42:58.071Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "10",
+    "object_repr": "564",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2023-03-23T18:39:11.887Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "qqq www",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2023-03-23T18:39:11.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Эдуард Успенский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.046Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Эдуард Успенский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.121Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "87978 6789",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.203Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ddd ssss",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.296Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Карен Уайт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.370Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Антонина Крейн",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.454Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Михаил Лабковский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2023-03-23T18:39:12.530Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Майк Омер",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2023-03-23T18:39:21.465Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "шщгшнщшг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2023-03-23T18:39:21.556Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Чердак на Куин-стрит",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2023-03-23T18:39:21.622Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Улыбнись мне, Артур Эдинброг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2023-03-23T18:39:21.689Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Гибельное влияние",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2023-03-23T18:41:59.182Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "15",
+    "object_repr": "шщгшнщшг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2023-03-23T18:41:59.270Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "6",
+    "object_repr": "Чердак на Куин-стрит",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2023-03-23T18:41:59.387Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "5",
+    "object_repr": "Улыбнись мне, Артур Эдинброг",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2023-03-23T18:41:59.504Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Гибельное влияние",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.540Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "qqq www",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.622Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "Эдуард Успенский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.714Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "Эдуард Успенский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.796Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "87978 6789",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.881Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "ddd ssss",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2023-03-23T18:42:05.962Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Карен Уайт",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2023-03-23T18:42:06.038Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Антонина Крейн",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2023-03-23T18:42:06.121Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Михаил Лабковский",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2023-03-23T18:42:06.214Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Майк Омер",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add author",
+    "content_type": 7,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change author",
+    "content_type": 7,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete author",
+    "content_type": 7,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view author",
+    "content_type": 7,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add book",
+    "content_type": 8,
+    "codename": "add_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change book",
+    "content_type": 8,
+    "codename": "change_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete book",
+    "content_type": 8,
+    "codename": "delete_book"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view book",
+    "content_type": 8,
+    "codename": "view_book"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$eqBh6YSLQDUjnpSbqDaxHB$02NiHKzWTgjv/5whEPR5OWgV5553RyvRX6AudOtnYow=",
+    "last_login": "2023-03-21T16:20:22.652Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-21T16:19:01.262Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "app",
+    "model": "author"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "app",
+    "model": "book"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "go9kqhttx8fg2ag2wx1njm5d15lt1uul",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAURP-FtSFcXoJL9_0GcrmAVA1NSrsy_ruSdKGZ3Zwz82IB962Gvec1zIldGLDTbxeRHrkNkO7YbgunpW3rHPlQ-EE7n5aUn9fD_Tuo2Ot3bexZCQvSKiGdM2RJYSKPypG3OhUsRBGd08IIU8A76ckAUNEwYtj7A745Nt8:1peeik:OWNAu1M76uuGSxYRQ4a7i3UYTjMAl35mfDRmfQcijKQ",
+    "expire_date": "2023-04-04T16:20:22.751Z"
+  }
+},
+{
+  "model": "app.book",
+  "pk": 16,
+  "fields": {
+    "title": "Атлант расправил плечи.",
+    "description": "\"Атлант расправил плечи\" – центральное произведение русской писательницы зарубежья Айн Рэнд, переведенное на множество языков и оказавшее огромное влияние на умы нескольких поколений читателей. Своеобразно сочетая фантастику и реализм, утопию и антиутопию, романтическую героику и испепеляющий гротеск, автор очень по-новому ставит извечные не только в русской литературе \"проклятые вопросы\" и предлагает свои варианты ответов – острые, парадоксальные, во многом спорные.",
+    "image": "app/images/1029283_0.jpg",
+    "author": [
+      13
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 17,
+  "fields": {
+    "title": "Убить пересмешника",
+    "description": "История маленького сонного городка на юге Америки, поведанная маленькой девочкой.\r\n\r\nИстория её брата Джима, друга Дилла и её отца – честного, принципиального адвоката Аттикуса Финча, одного из последних и лучших представителей старой \"южной аристократии\".\r\n\r\nИстория судебного процесса по делу чернокожего парня, обвинённого в насилии над белой девушкой.\r\n\r\nНо прежде всего – история переломной эпохи, когда ксенофобия, расизм, нетерпимость и ханжество, присущие американскому югу, постепенно уходят в прошлое.\r\n\r\n\"Ветер перемен\" только-только повеял над Америкой. Что он принесёт?..",
+    "image": "app/images/10664205_0.jpg",
+    "author": [
+      14
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 18,
+  "fields": {
+    "title": "Тайная история",
+    "description": "Блестящая американская писательница Донна Тартт, лауреат Пулитцеровской премии 2014 года, покорила читателей первым же своим романом \"Тайная история\". Книга сразу стала бестселлером. Она переведена на двадцать пять языков и продолжает расходиться многомиллионными тиражами во всем мире.\r\n\r\nДействие происходит в небольшом колледже в Вермонте, куда девятнадцатилетний Ричард Пейпен приезжает изучать древнегреческий язык. Новые друзья Ричарда – четверо молодых людей и одна девушка – умны, раскованны, богаты и так увлечены античной культурой, что рассматривают себя чуть ли не как особую касту ее хранителей. Их дружба не выдерживает, однако, натиска современного мира. В веселой и сплоченной компании происходит убийство.",
+    "image": "app/images/10406498_0.jpg",
+    "author": [
+      15
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 19,
+  "fields": {
+    "title": "У войны не женское лицо",
+    "description": "Одна из самых известных в мире книг о войне, положившая начало знаменитому художественно-документальному циклу Светланы Алексиевич \"Голоса Утопии\". Переведена более чем на двадцать языков, включена в школьные и вузовские программы во многих странах. Последняя авторская редакция: писательница, в соответствии со своим творческим методом, постоянно дорабатывает книгу, убирая цензурную правку, вставляя новые эпизоды, дополняя записанные женские исповеди страницами собственного дневника, который она вела в течение семи лет работы над книгой. \"У войны не женское лицо\" – опыт уникального проникновения в духовный мир женщины, выживающей в нечеловеческих условиях войны.",
+    "image": "app/images/1039324_0.jpg",
+    "author": [
+      16
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 20,
+  "fields": {
+    "title": "Десять негритят",
+    "description": "Десять никак не связанных между собой людей в особняке на уединенном острове... Кто вызвал их сюда таинственным приглашением? Зачем кто-то убивает их, одного за другим, самыми невероятными способами? Почему все происходящее так тесно переплетено с веселым детским стишком?",
+    "image": "app/images/101064021_0.jpg",
+    "author": [
+      17
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 21,
+  "fields": {
+    "title": "Рассказ Служанки",
+    "description": "В дивном новом мире женщины не имеют права владеть собственностью, работать, любить, читать, писать. Они не могут бегать по утрам, устраивать пикники и вечеринки, им запрещено вторично выходить замуж. Им оставлена лишь одна функция.\r\n\r\nФредова – Служанка. Один раз в день она может выйти за покупками, но ни разговаривать, ни вспоминать ей не положено. Раз в месяц она встречается со своим хозяином – Командором – и молится, чтобы от их соития получился здоровый ребенок. Потому что в дивном новом мире победившего христианского фундаментализма Служанка – всего-навсего сосуд воспроизводства.\r\n\r\nОбжигающий нервы роман лауреата Букеровской премии Маргарет Этвуд \"Рассказ Служанки\" – убедительная панорама будущего, которое может начаться завтра.",
+    "image": "app/images/10598951_0.jpg",
+    "author": [
+      18
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 22,
+  "fields": {
+    "title": "Франкенштейн",
+    "description": "Задуманный и начатый в ходе творческого состязания в сочинении страшных историй на швейцарской вилле Диодати в июне 1816 года, инициированного лордом Байроном, дебютный роман английской писательницы Мэри Шелли стал одним из шедевров романтической готики и вместе с тем отправной точкой научно-фантастической традиции в прозе Нового и Новейшего времени. Отсылающая самим названием к античному мифу о Прометее, книга М. Шелли за неполные два столетия породила собственную обширную и влиятельную культурную мифологию, прирастающую все новыми героями, ситуациями и смыслами в бесчисленных подражаниях, переложениях и экранизациях. Придуманный автором книги трагический и страшный сюжет оказался открыт для различных художественных, философских и социально-политических интерпретаций, а имя и личность швейцарского ученого-экспериментатора Виктора Франкенштейна прочно соединились в современном культурном сознании с образом созданного им монстра в",
+    "image": "app/images/1013091_0.jpg",
+    "author": [
+      19
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 23,
+  "fields": {
+    "title": "Интервью с вампиром",
+    "description": "Драматическая история вампира, пересказывающего свою жизнь по эту и по ту сторону бытия, - французские колонии в Луизиане, Париж XIX века, глухая деревушка в Карпатах... Обитатели мира тьмы, это воплощенное зло, - неужели они, как люди, способны страдать и радоваться, лю бить и сокрушаться от потерь, неужели в их сердце сохранился остаток человеческого?..\r\n\r\nНаписанный буквально за полтора месяца в память о шестилетней дочери, которая скончалась от лейкемии, роман \"Интервью с вампиром\" давно вышел за тесные рамки жанра и стал мировой классикой уровня \"Дракулы\" Брэма Стокера. Своим появлением в 1973 году он предвосхитил знаменитые \"Сумерки\" Стефани Майер, а фильм 1994 года с Томом Крузом, Брэдом Питтом и Антонио Бандерасом в главных ролях принес книге еще большую популярность. Общий тираж романа на сегодняшний день превысил рекордные 15 миллионов экземпляров, это едва ли не самая продаваемая из книг современных авторов в истории книжной торговли.",
+    "image": "app/images/101020529_0.jpg",
+    "author": [
+      20
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 24,
+  "fields": {
+    "title": "Второй пол (в 2-х томах)",
+    "description": "Сочетая кропотливый анализ, острый стиль письма и обширную эрудицию, Бовуар рассказывает о том, как менялось отношение к женщинам на протяжении всей истории, от древних времён до нашего времени, уделяя равное внимание биологическому, социологическому и антропологическому аспектам. \"Второй пол\" – это история угнетений, заблуждений и предрассудков, связанных с восприятием Женщины не только со стороны мужчины, но и со стороны самих представительниц \"слабого пола\". Теперь этот один из самых смелых и прославленных текстов ХХ века доступен русскоязычным читателям в полноценном, отредактированном виде, сохраняющем всю полноту оригинала.",
+    "image": "app/images/101003984_0.jpg",
+    "author": [
+      21
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 25,
+  "fields": {
+    "title": "Волшебник Земноморья",
+    "description": "Сегодня Гед – величайший маг Земноморья, а в молодости он безрассудно рвался к могуществу и знаниям. Ступив на путь, казавшийся самым коротким и лёгким, юноша прикоснулся к древней тайне, и по его вине в мир проникло великое зло.\r\n\r\nЧтобы исправить содеянное, надо пройти иной путь – длиною в жизнь. Рискуя на каждом шагу, преодолеть немыслимые препятствия, измениться до неузнаваемости, понять своё предназначение – и сойтись в решающем поединке с чёрной тенью.\r\n\r\nЦикл \"Волшебник Земноморья\" принёс его автору мировую славу, и сейчас он стоит в одном ряду с такими шедеврами фэнтези, как \"Властелин Колец\" Дж. Р. Р. Толкина и \"Нарния\" К. С. Льюиса.",
+    "image": "app/images/1011785_0.jpg",
+    "author": [
+      22
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 26,
+  "fields": {
+    "title": "Идеал",
+    "description": "\"Идеал\" был написан Айн Рэнд в далеком 1934 году дважды – сначала как повесть, а затем как пьеса. Оба Идеала являются ярчайшими философскими повествованиями, в основе сюжета которых лежит возвышенная духовная и физическая красота молодой актрисы Кей Гонды.\r\n\r\nДраматургия и проза Айн Рэнд – явления весьма незаурядные, а ее философия объективизма и по сей день не утрачивает актуальности и находит своих последователей по всему миру.",
+    "image": "app/images/101040892_0.jpg",
+    "author": [
+      13
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 27,
+  "fields": {
+    "title": "Фокус с зеркалами",
+    "description": "Мисс Марпл по-прежнему не сидится спокойно в ее уютном доме в деревеньке Сент-Мэри-Мид. На сей раз она решила поучаствовать в судьбе своей старой подруги Кэрри-Луизы. Дело в том, что, по твердому убеждению их общей знакомой, Рут ван Райдок, несчастной грозит смерть от отравления. Никаких улик нет, но миссис ван Райдок убеждена в серьезности угрозы. Приехав в дом Кэрри-Луизы и ее мужа, мисс Марпл обнаружила там их многочисленную родню, весьма непростую в плане взаимоотношений. Не успела дама-детектив как следует освоиться на новом месте, как стала свидетелем преступления – один из членов семьи был застрелен при самых загадочных обстоятельствах. Таким образом, мисс Марпл придется расследовать сразу два дела – об убийстве и о возможном отравлении; причем, на первый взгляд, никакой связи между ними нет...",
+    "image": "app/images/101130020_0.jpg",
+    "author": [
+      17
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 28,
+  "fields": {
+    "title": "Большая четверка",
+    "description": "В дом Эркюля Пуаро вламывается изможденный человек в выпачканном костюме. Он едва живой. Несколько капель коньяка приводят его в чувство. Человек пытается что-то объяснить, но сил его хватает лишь на то, чтобы несколько раз написать на листе бумаги большую цифру \"4\"...",
+    "image": "app/images/101130020_0_uLn3XCc.jpg",
+    "author": [
+      17
+    ]
+  }
+},
+{
+  "model": "app.book",
+  "pk": 29,
+  "fields": {
+    "title": "Убить пересмешника",
+    "description": "Штат Алабама, 1930-е годы, время Великой Депрессии и расцвет расовой нетерпимости на юге Америки. Адвокат Аттикус Финч защищает чернокожего, обвиненного в преступлении, которого он не совершал. А еще это история о том, как двое его детей, которых он растит в одиночку, делают первые шаги из мира фантазий во взрослый мир и на собственном опыте узнают, что такое благородство, сострадание и справедливость.\r\n\r\nСоздавая графический роман \"Убить пересмешника\", художник Фред Фордэм не стремился заново переписать роман Харпер Ли, напротив - в своих иллюстрациях он сохранил дух оригинального произведения, ставшего культовым для нескольких поколений.",
+    "image": "app/images/10790785_0.jpg",
+    "author": [
+      14
+    ]
+  }
+},
+{
+  "model": "app.author",
+  "pk": 13,
+  "fields": {
+    "first_name": "Айн",
+    "last_name": "Рэнд"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 14,
+  "fields": {
+    "first_name": "Харпер",
+    "last_name": "Ли"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 15,
+  "fields": {
+    "first_name": "Донна",
+    "last_name": "Тартт"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 16,
+  "fields": {
+    "first_name": "Светлана",
+    "last_name": "Алексиевич"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 17,
+  "fields": {
+    "first_name": "Агата",
+    "last_name": "Кристи"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 18,
+  "fields": {
+    "first_name": "Маргарет",
+    "last_name": "Этвуд"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 19,
+  "fields": {
+    "first_name": "Мэри",
+    "last_name": "Шелли"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 20,
+  "fields": {
+    "first_name": "Энн",
+    "last_name": "Райс"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 21,
+  "fields": {
+    "first_name": "Симона",
+    "last_name": "де Бовуар"
+  }
+},
+{
+  "model": "app.author",
+  "pk": 22,
+  "fields": {
+    "first_name": "Урсула",
+    "last_name": "Кребер Ле Гуин"
+  }
+}
+]

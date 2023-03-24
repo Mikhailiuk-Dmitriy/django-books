@@ -1,0 +1,37 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+<hr>
+<h3 style="color: red">Вы действительно хотите удалить эту книгу?</h3>
+<div class="card" style=" display: flex; justify-content: center;">
+
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="{{ book.image.url }}" class="img-fluid rounded-start" alt="..." >
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ book.title }}</h5>
+          Автор:
+          {% for author in book.author.all %}
+            <li><small class="text-muted">{{ author }}</small></li>
+          {% endfor %}
+        <br>
+        <p class="card-text">{{ book.description }}</p>
+      </div>
+        <div style="display: flex; ">
+        <form action="{% url 'detail_book' book.pk %}" style="margin: 4px;">
+            <button class="btn btn-outline-primary" >Отмена</button>
+        </form>
+        <form method="post" style="margin: 4px;">
+            {% csrf_token %}
+            <button class="btn btn-outline-danger" >Удалить</button>
+        </form>
+        </div>
+       </div>
+  </div>
+</div>
+
+{% endblock %}
