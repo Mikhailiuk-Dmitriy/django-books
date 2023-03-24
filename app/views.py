@@ -1,3 +1,6 @@
+from typing import Any
+
+from django.http import HttpResponse
 from django.shortcuts import render
 from django.views import generic
 
@@ -28,7 +31,7 @@ class UpdateBookView(generic.UpdateView):
     fields = "__all__"
     success_url = "/"
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs: Any) -> dict[str, Any]:
         contex = super().get_context_data()
         contex["authors"] = Author.objects.all()
         return contex
@@ -40,7 +43,7 @@ class CreateBookView(generic.CreateView):
     fields = "__all__"
     success_url = "/"
 
-    def get_context_data(self, **kwargs):
+    def get_context_data(self, **kwargs: Any) -> dict[str, Any]:
         contex = super().get_context_data()
         contex["authors"] = Author.objects.all()
         return contex
@@ -78,6 +81,6 @@ class AuthorListView(generic.ListView):
     context_object_name = "authors"
 
 
-def show_authors_books(request, pk):
+def show_authors_books(request, pk: int) -> HttpResponse:
     books = Book.objects.filter(author=pk)
     return render(request, 'app/show_authors_books.html', {'books': books})
