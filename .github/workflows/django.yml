@@ -27,7 +27,7 @@ jobs:
       run: poetry install --with dev
     - name: 📊 Run Tests
       run: | 
-        python manage.py test
+        poetry run python manage.py test
         poetry run black . --check
         poetry run isort . --check-only
         poetry run flake8
