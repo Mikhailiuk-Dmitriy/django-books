@@ -76,11 +76,11 @@ class DeleteAutherView(generic.DeleteView):
 
 
 class AuthorListView(generic.ListView):
-    template_name = 'app/authors_list.html'
+    template_name = "app/authors_list.html"
     model = Author
     context_object_name = "authors"
 
 
 def show_authors_books(request, pk: int) -> HttpResponse:
     books = Book.objects.filter(author=pk)
-    return render(request, 'app/show_authors_books.html', {'books': books})
+    return render(request, "app/show_authors_books.html", {"books": books})
