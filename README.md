@@ -1,5 +1,5 @@
 # django-books
-Test task for IT Academy Boot camp
+Test task for IT Academy Bootcamp
 
 A web application to create an online books catalog
 
